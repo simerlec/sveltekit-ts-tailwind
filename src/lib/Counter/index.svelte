@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { spring } from 'svelte/motion';
-	import { count as c } from './store.js';
+	import { count as c } from './counterStore';
 
 	let count = 0;
 

@@ -1,5 +1,5 @@
 {
-	"name": "~TODO~",
+	"name": "sveltekit-ts-tailwind",
 	"version": "0.0.1",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -10,6 +10,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "next",
+		"@sveltejs/adapter-vercel": "^1.0.0-next.14",
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^4.19.0",
 		"@typescript-eslint/parser": "^4.19.0",
