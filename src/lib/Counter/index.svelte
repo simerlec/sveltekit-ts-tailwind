@@ -18,8 +18,9 @@
 	}
 </script>
 
-<div class="counter">
-	<button on:click={() => c.update(n => n - 1)} aria-label="Decrease the counter by one">
+<div class="flex border-b border-t border-solid border-[#0000001a] my-1 mx-0">
+	<button class="w-12 p-0 flex items-center justify-center bg-transparent border-none text-2xl hover:bg-[#d0dde9] text-[#444444]"
+	on:click={() => c.update(n => n - 1)} aria-label="Decrease the counter by one">
 		<svg aria-hidden="true" viewBox="0 0 1 1">
 			<path d="M0,0.5 L1,0.5"></path>
 		</svg>
@@ -32,7 +33,7 @@
 		</div>
 	</div>
 
-	<button on:click={() => c.update(n => n + 1)} aria-label="Increase the counter by one">
+	<button class="w-12 p-0 flex items-center justify-center bg-transparent border-none text-2xl hover:bg-[#d0dde9] text-[#444444]" on:click={() => c.update(n => n + 1)} aria-label="Increase the counter by one">
 		<svg aria-hidden="true" viewBox="0 0 1 1">
 			<path d="M0,0.5 L1,0.5 M0.5,0 L0.5,1"></path>
 		</svg>
@@ -40,33 +41,6 @@
 </div>
 
 <style>
-	.counter {
-		display: flex;
-		border-top: 1px solid rgba(0,0,0,0.1);
-		border-bottom: 1px solid rgba(0,0,0,0.1);
-		margin: 1rem 0;
-	}
-
-	.counter button.disabled {
-		opacity: 0.3;
-	}
-
-	.counter button {
-		width: 2em;
-		padding: 0;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		border: 0;
-		background-color: transparent;
-		color: var(--text-color);
-		font-size: 2rem;
-	}
-
-	.counter button:hover {
-		background-color: var(--secondary-color);
-	}
-
 	svg {
 		width: 25%;
 		height: 25%;

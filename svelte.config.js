@@ -1,9 +1,8 @@
-const sveltePreprocess = require('svelte-preprocess');
-const pkg = require('./package.json');
-const vercel = require('@sveltejs/adapter-vercel');
+import sveltePreprocess from 'svelte-preprocess';
+import vercel from '@sveltejs/adapter-vercel';
 
 /** @type {import('@sveltejs/kit').Config} */
-module.exports = {
+export default {
 	// Consult https://github.com/sveltejs/svelte-preprocess
 	// for more information about preprocessors
 	preprocess: sveltePreprocess(),
@@ -15,11 +14,6 @@ module.exports = {
 		adapter: vercel(),
 
 		// hydrate the <div id="svelte"> element in src/app.html
-		target: '#svelte',
-		vite: {
-			ssr: {
-				noExternal: Object.keys(pkg.dependencies || {})
-			}
-		}
+		target: '#svelte'
 	}
 };
