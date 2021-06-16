@@ -10,27 +10,27 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "next",
-		"@sveltejs/adapter-vercel": "^1.0.0-next.14",
+		"@sveltejs/adapter-vercel": "^1.0.0-next.22",
 		"@sveltejs/kit": "next",
-		"@typescript-eslint/eslint-plugin": "^4.22.0",
-		"@typescript-eslint/parser": "^4.22.0",
-		"autoprefixer": "^10.2.5",
-		"eslint": "^7.25.0",
+		"@typescript-eslint/eslint-plugin": "^4.27.0",
+		"@typescript-eslint/parser": "^4.27.0",
+		"autoprefixer": "^10.2.6",
+		"eslint": "^7.28.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^3.2.0",
-		"postcss": "^8.2.13",
-		"postcss-load-config": "^3.0.1",
+		"postcss": "^8.3.4",
+		"postcss-load-config": "^3.1.0",
 		"prettier": "~2.2.1",
-		"prettier-plugin-svelte": "^2.2.0",
+		"prettier-plugin-svelte": "^2.3.0",
 		"svelte": "^3.38.1",
 		"svelte-preprocess": "^4.7.3",
-		"tailwindcss": "^2.1.2",
-		"tslib": "^2.2.0",
-		"typescript": "^4.2.4",
-		"vite": "^2.2.4"
+		"tailwindcss": "^2.1.4",
+		"tslib": "^2.3.0",
+		"typescript": "^4.3.2",
+		"vite": "^2.3.7"
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.2.2"
+		"@fontsource/fira-mono": "^4.4.5"
 	}
 }
