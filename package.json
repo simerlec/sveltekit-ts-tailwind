@@ -11,7 +11,7 @@
   "devDependencies": {
     "@sveltejs/adapter-node": "^1.0.0-next.53",
     "@sveltejs/adapter-vercel": "^1.0.0-next.30",
-    "@sveltejs/kit": "^1.0.0-next.179",
+    "@sveltejs/kit": "^1.0.0-next.184",
     "@typescript-eslint/eslint-plugin": "^4.32.0",
     "@typescript-eslint/parser": "^4.32.0",
     "autoprefixer": "^10.3.6",
