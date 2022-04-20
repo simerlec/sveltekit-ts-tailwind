@@ -8,10 +8,7 @@ const config = {
   preprocess: [preprocess({})],
 
   kit: {
-    adapter: vercel(),
-
-    // hydrate the <div id="svelte"> element in src/app.html
-    target: '#svelte'
+    adapter: vercel()
   }
 };
 
